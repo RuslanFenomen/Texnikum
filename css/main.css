@@ -576,8 +576,8 @@ li {
    /* reviews */
    .reviews__text {
       padding: 30px 40px 50px 25px;
-      width: 360px;
-      height: 285px;
+      width: 300px;
+      height: 245px;
    }
    /* btn-course */
    .btn-course__inner h2 {
