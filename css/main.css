@@ -4,9 +4,9 @@
    box-sizing: border-box;
 }
 
-/* html {
+html {
    scroll-behavior: smooth;
-} */
+}
 
 body {
    font-family: Montserrat, sans-serif;
@@ -115,7 +115,7 @@ li {
 /* info */
 
 .info {
-   margin: 200px 0 100px;
+   padding-top: 200px;
 }
 
 .title {
@@ -133,7 +133,7 @@ li {
 /* benefits */
 
 .benefits {
-   margin-bottom: 100px;
+   padding-top: 100px;
 }
 
 .benefits__list {
@@ -173,7 +173,7 @@ li {
 /* start */
 
 .start {
-   margin-bottom: 100px;
+   padding-top: 100px;
 }
 
 .start__inner p {
@@ -187,7 +187,7 @@ li {
 /* present */
 
 .present {
-   margin-bottom: 100px;
+   padding-top: 100px;
 }
 
 .present__inner {
@@ -215,7 +215,7 @@ li {
 /* graduate */
 
 .graduate {
-   margin-bottom: 100px !important;
+   padding-top: 100px !important;
 }
 
 .graduate__inner {
@@ -278,7 +278,7 @@ li {
 /* reviews */
 
 .reviews {
-   margin-bottom: 100px;
+   padding-top: 100px;
 }
 
 .reviews__content {
@@ -327,7 +327,7 @@ li {
 /* btn-course */
 
 .btn-course {
-   margin-bottom: 100px;
+   padding: 100px 0;
 }
 
 .btn-course__inner {
@@ -351,7 +351,6 @@ li {
 .footer__inner {
    display: flex;
    justify-content: space-between;
-   
 }
 
 .footer__col:nth-child(1) {
@@ -387,9 +386,6 @@ li {
       min-width: 320px;
    }
    /* graduate */
-   .graduate {
-      margin-bottom: 50px !important;
-   }
    .graduate__content {
       width: 100%;
    }
@@ -457,9 +453,6 @@ li {
       margin-right: 25%;
    }
    /* info */
-   .info {
-      margin: 100px 0 50px;
-   }
    .title {
       font-size: 21px;
       line-height: 30px;
@@ -469,9 +462,6 @@ li {
       line-height: 17px;
    }
    /* benefist */
-   .benefits {
-      margin-bottom: 50px;
-   }
    .benefits__item {
       font-size: 14px;
       line-height: 17px;
@@ -498,9 +488,6 @@ li {
       margin-top: 24px;
    }
    /* present */
-   .present {
-      margin-bottom: 50px;
-   }
    .present__inner {
       flex-direction: column;
    }
@@ -537,15 +524,12 @@ li {
       margin-top: 10px;
    }
    /* btn-course */
-   .btn-course {
-      margin-bottom: 50px;
-   }
    .btn-course__inner h2 {
       font-size: 30px;
       line-height: 40px;
    }
    /* footer */
-   .footer__col:nth-child(3){
+   .footer__col:nth-child(3) {
       display: none;
       order: 2;
    }
@@ -569,10 +553,6 @@ li {
       min-width: 290px;
       text-align: center;
    }
-   /* info */
-   .info {
-      margin: 50px 0;
-   }
    /* reviews */
    .reviews__text {
       padding: 30px 40px 50px 25px;
@@ -585,17 +565,17 @@ li {
       line-height: 30px;
    }
    /* footer */
-   .footer{
+   .footer {
       padding-bottom: 0px;
    }
-   .footer__inner{
+   .footer__inner {
       flex-direction: column;
       align-items: center;
    }
-   .footer .logo{
+   .footer .logo {
       display: none;
    }
-   .footer__col:nth-child(2){
+   .footer__col:nth-child(2) {
       display: none;
    }
 }
